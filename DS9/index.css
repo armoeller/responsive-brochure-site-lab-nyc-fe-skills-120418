@@ -29,8 +29,8 @@ background-color: #008CBA;
   /*margin-left: auto;*/
   /*margin-right: auto;*/
   /*height: 100%;*/
-  /*Display: Flex;*/
-  /*flex-direction: column;*/
+  Display: Flex;
+  flex-direction: column;
   /*flex-direction: Column;*/
   /*justify-content: center;*/
   /*align-content: center;*/
@@ -63,7 +63,7 @@ background-color: #008CBA;
   text-align: center;
   align-items: Center;
   font-size: 60px;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom:5px;
 }
 
@@ -75,6 +75,10 @@ background-color: #008CBA;
   margin-top: 30px;
   width: 80%;
   height: 100%;
+}
+
+.Staff {
+  margin-top: 60px;
 }
 
 /*.Station {*/
@@ -96,7 +100,7 @@ background-color: #008CBA;
 
 #subheader h2 {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-left:auto;
   margin-right: auto;
   text-align: left;
@@ -150,12 +154,14 @@ img {
   width: 80%;
   height: auto;
   text-shadow: 1px 1px white;
-  font-size: 65px;
+  font-size: 2.5rem;
 }
 
 .Quote img {
   width: 400px;
   height: 400px;
+  /*width: 80%;*/
+  /*height: 100%;*/
   border-radius: 15px;
 }
 
@@ -189,13 +195,15 @@ img {
   padding: 0px 0px 0px 0px;
   width: 50%;
   /*height: 100%;*/
-  font-size: 160%;
+  /*font-size: 160%;*/
+  font-size: 1.75vw;
   word-wrap: break-word;
 }
 
 .Quarks .Quote p {
   width: 50%;
-  font-size: 200%;
+  /*font-size: 200%;*/
+  font-size: 2.2vw;
   padding: 0;
 }
 
@@ -210,6 +218,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 55px;
+  margin-bottom: 50px;
   padding: 12px;
   width: 90%;
   height: auto;
@@ -381,7 +390,7 @@ text-shadow: 2px 2px black;
   text-align: center;
   align-items: Center;
   font-size: 1.5em;
-  padding: 0px;
+  padding: 0;
 }
 
 .Bajor .Section {
@@ -424,6 +433,7 @@ text-shadow: 2px 2px black;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 12px;
   width: 90%;
   height: auto;
